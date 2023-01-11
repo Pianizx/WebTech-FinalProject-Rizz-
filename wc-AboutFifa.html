@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>World Cup</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="icon" type="image/x-icon" href="images/fifa logo.png">
+</head>
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: #56042C;
+        }
+
+        .header {
+            background-color: #f9f6ee;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .navigation {
+            overflow: hidden;
+            background-color:#e0a96d;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .navigation a {
+            float: left;
+            display: block;
+            color: #0c0c0c;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navigation a:hover {
+            background-color: #ddd;
+            color:black;
+        }
+
+        .column1 {
+            padding: 30px;
+            width: 100%;
+            background-color: #ddc3a5;
+            height: 620px;
+            margin-top: 10px;
+        }
+
+        .column2 {
+            width: 100%;
+            padding: 20px;
+            background-color: #ddc3a5;
+            text-align: center;
+            margin-top: 10px;
+            height: auto;
+            
+        }
+
+        .column3 {
+            float: left;
+            padding: 20px;
+            background-color: #ddc3a5;
+            text-align: center;
+            overflow-y: scroll;
+            white-space: nowrap;
+            width: 50%;
+            height: 600px;
+            margin-top: 10px;
+        }
+
+        .column4 {
+            float: left;
+            padding: 20px;
+            background-color: #ddc3a5;
+            text-align: center;
+            width: 50%;
+            height: 600px;
+            margin-top: 10px;
+        }
+
+        .footer {
+            float: left;
+            background-color: #f9f6ee;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .column1 h3 {
+            text-align: middle;
+            padding-top: 10px;
+        }
+
+        .column1 h4 {
+            text-align: left;
+        }
+
+        .column1 img {
+            margin-right: 20px;
+            margin-bottom: 10px;
+        }
+
+        .column3 img {
+            margin: 20px;
+        }
+
+        .column3 h2{
+            margin-bottom: 20px;
+            position: sticky;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #000000;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }   
+
+    </style>
+
+<div class = "header"> 
+    <h1><img src="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" width="160px" style="float:left; padding-left: 20px;" >WORLD CUP 2022 QATAR<img src="https://seeklogo.com/images/F/fifa-world-cup-2022-mascot-laeeb-logo-D484E21F8D-seeklogo.com.png" width="100px" style="float:right; padding-right: 20px;"></h1>
+    <h4>The 2022 FIFA World Cup is scheduled to be the 22nd running of the FIFA World Cup competition</h4>
+</div>
+
+<div class = "navigation">
+    <a href="wc-home.html"><b>Home</b></a>
+    <a href="wc-AboutFifa.html"><b>About FIFA</b></a>
+    <a href="wc-news.html"><b>News</b></a>
+    <a href="wc-schedule.html"><b>Schedule and Scores</b></a>
+    <a href="wc-teams.html"><b>Teams and Players</b></a>
+    <a href="wc-QatarNews.html"><b>Qatar News</b></a>
+</div>
+
+    
+    <div class = "column1">
+        <h1 style="padding-bottom: 30px;">History of FIFA</h1>
+        <p><img src="images/history fifa.jpg" width="30%" style="float:left">  &emsp;&emsp;The need for a single body to oversee association football became increasingly apparent at the beginning of the 20th century with the increasing popularity of international fixtures. The Fédération internationale de Football Association (FIFA) was founded in the rear of the headquarters of the Union des Sociétés Françaises de Sports Athlétiques (USFSA) at the Rue Saint Honoré 229 in Paris on 21 May 1904. The French name and acronym are used even outside French-speaking countries. The founding members were the national associations of Belgium, Denmark, France, the Netherlands, Spain (represented by then-Madrid Football Club; the Royal Spanish Football Federation was not created until 1913), Sweden and Switzerland. Also, that same day, the German Football Association (DFB) declared its intention of affiliating through a telegram. <br><br>
+
+        &emsp;&emsp;The first president of FIFA was Robert Guérin. Guérin was replaced in 1906 by Daniel Burley Woolfall from England, by then a member of the association. The first tournament FIFA staged, the association football competition for the 1908 Olympics in London was more successful than its Olympic predecessors, despite the presence of professional footballers, contrary to the founding principles of FIFA.<br><br>
+            
+        &emsp;&emsp;Membership of FIFA expanded beyond Europe with the application of South Africa in 1909, Argentina in 1912, Canada and Chile in 1913, and the United States in 1914.The 1912 Spalding Athletic Library "Official Guide" includes information on the 1912 Olympics (scores and stories), AAFA, and FIFA. The 1912 FIFA President being Dan B Woolfall. Daniel Burley Woolfall was president from 1906 to 1918.<br><br>
+            
+        &emsp;&emsp;During World War I, with many players sent off to war and the possibility of travel for international fixtures severely limited, the organization's survival was in doubt. Post-war, following the death of Woolfall, the organization was run by Dutchman Carl Hirschmann. It was saved from extinction but at the cost of the withdrawal of the Home Nations (of the United Kingdom), who cited an unwillingness to participate in international competitions with their recent World War enemies. The Home Nations later resumed their membership. The FIFA collection is held by the National Football Museum at Urbis in Manchester, England. The first World Cup was held in 1930 in Montevideo, Uruguay.</p>
+    </div>
+
+
+    <div class = "column2">
+        <h1 style="padding-bottom: 30px; padding-top: 10px;">Allignments with the Sustainable Development Goals (SDG)
+        </h1>
+
+        <p><img src="images/sdg3.png" width="80%" style="vertical-align: middle; padding-right: 10px;"><img src="images/sdg4.png" width="80%" style="vertical-align: middle; padding-right: 10px;"><img src="images/sdg10.png" width="80%" style="vertical-align: middle; padding-right: 10px; padding-bottom: 10px;"> </p>
+    </div>
+
+    <div class = "column3">
+        <h2 style="padding: 20px;">Fifa World Cup Champions and Runners-up</h2>
+        <table>
+            <tr>
+              <th>Year</th>
+              <th>Host</th>
+              <th>Champion</th>
+              <th>Runners-up</th>
+            </tr>
+            <tr>
+              <td>1930</td>
+              <td>Uruguay</td>
+              <td>Uruguay</td>
+              <td>Argentina</td>
+            </tr>
+            <tr>
+              <td>1934</td>
+              <td>Italy</td>
+              <td>Italy</td>
+              <td>Czechoslovakia</td>
+            </tr>
+            <tr>
+              <td>1938</td>
+              <td>France</td>
+              <td>Italy</td>
+              <td>Hungary</td>
+            </tr>
+            <tr>
+              <td>1950</td>
+              <td>Brazil</td>
+              <td>Uruguay</td>
+              <td>Brazil</td>
+            </tr>
+            <tr>
+              <td>1954</td>
+              <td>Switzerland</td>
+              <td>West Germany</td>
+              <td>Hungary</td>
+            </tr>
+            <tr>
+              <td>1958</td>
+              <td>Sweden</td>
+              <td>Brazil</td>
+              <td>Sweden</td>
+            </tr>
+            <tr>
+                <td>1962</td>
+                <td>Chile</td>
+                <td>Brazil</td>
+                <td>Czechoslovakia</td>
+            </tr>
+            <tr>
+                <td>1966</td>
+                <td>England</td>
+                <td>England</td>
+                <td>West Germany</td>
+            </tr>
+            <tr>
+                <td>1970</td>
+                <td>Mexico</td>
+                <td>Brazil</td>
+                <td>Italy</td>
+            </tr>
+            <tr>
+                <td>1974</td>
+                <td>West Germany</td>
+                <td>West Germany</td>
+                <td>Netherlands</td>
+            </tr>
+            <tr>
+                <td>1978</td>
+                <td>Argentina</td>
+                <td>Argentina</td>
+                <td>Netherlands</td>
+            </tr>
+            <tr>
+                <td>1982</td>
+                <td>Spain</td>
+                <td>Italy</td>
+                <td>West Germany</td>
+            </tr>
+            <tr>
+                <td>1986</td>
+                <td>Mexico</td>
+                <td>Argentina</td>
+                <td>West Germany</td>
+            </tr>
+            <tr>
+                <td>1990</td>
+                <td>Italy</td>
+                <td>West Germany</td>
+                <td>Argentina</td>
+            </tr>
+            <tr>
+                <td>1994</td>
+                <td>United States</td>
+                <td>Brazil</td>
+                <td>Italy</td>
+            </tr>
+            <tr>
+                <td>1998</td>
+                <td>France</td>
+                <td>France</td>
+                <td>Brazil</td>
+            </tr>
+            <tr>
+                <td>2002</td>
+                <td>South Korea / Japan </td>
+                <td>Brazil</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>2006</td>
+                <td>Germany</td>
+                <td>Italy</td>
+                <td>France</td>
+            </tr>
+            <tr>
+                <td>2010</td>
+                <td>South Africa</td>
+                <td>Spain</td>
+                <td>Netherlands</td>
+            </tr>
+            <tr>
+                <td>2014</td>
+                <td>Brazil</td>
+                <td>Germany</td>
+                <td>Argentina</td>
+            </tr>
+            <tr>
+                <td>2018</td>
+                <td>Russia</td>
+                <td>France</td>
+                <td>Croatia</td>
+            </tr>
+            <tr>
+                <td>2022</td>
+                <td>Qatar</td>
+                <td>Argentina</td>
+                <td>France</td>
+            </tr>
+          </table>
+    </div>
+
+    <div class = "column4">
+        <h2 style="padding: 20px;">Country Top Goalscorer</h2>
+        <table>
+            <tr>
+              <th>Rank</th>
+              <th>National Team</th>
+              <th>Goal Scored</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Brazil</td>
+              <td>237</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Germany</td>
+              <td>232</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Argentina</td>
+              <td>152</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>France</td>
+              <td>136</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Italy</td>
+              <td>128</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Spain</td>
+              <td>108</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>England</td>
+                <td>104</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Netherlands</td>
+                <td>96</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Uruguay</td>
+                <td>89</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Hungary</td>
+                <td>87</td>
+            </tr>
+          </table>
+    </div>
+
+    <div class="footer">
+        <h3>FIFA WORLD CUP SPONSORS</h3>
+        <p><img src="images/coca cola.jpg" style='vertical-align:middle;' width="80px"><b> Coca Cola</b>&emsp;&emsp;<img src="images/adidas.png" style='vertical-align:middle;' width="80px"><b> Adidas</b>&emsp;&emsp;<img src="images/visa.png" style='vertical-align:middle;' width="80px"><b> Visa </b>&emsp;&emsp;<img src="images/qatar airways.png" style='vertical-align:middle;' width="80px"><b> Qatar Airways </b>&emsp;&emsp;<img src="images/mcd.png" style='vertical-align:middle;' width="80px"><b> McDonald </b></p>
+    </div>
+
+</body>
+</html>
